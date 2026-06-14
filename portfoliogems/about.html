@@ -1,0 +1,531 @@
+<?php
+/* Template Name: About Page */
+get_header(); ?>
+
+<!-- About Hero Section -->
+<section class="about-hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <div class="hero-badge">✦ About Me ✦</div>
+    <h1>My Journey in the World of Gems</h1>
+    <p class="hero-tagline">From curiosity to expertise - discovering the beauty of minerals</p>
+  </div>
+</section>
+
+<!-- Main About Content -->
+<section class="about-content-section">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-image-block">
+        <div class="image-frame-large">
+          <span class="frame-gem">💎</span>
+          <div class="profile-placeholder">
+            <span>👤</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-info">
+        <h2>Hello, I'm a Gem Enthusiast!</h2>
+        <p class="lead">I'm passionate about exploring the fascinating world of minerals and gemstones, and sharing that passion with others through my portfolio.</p>
+        <p>My journey with the Gem Club began in 2021, and since then I've been dedicated to learning everything about gemstones, mineralogy, and the art of gem collection. What started as a simple curiosity has grown into a lifelong passion for earth sciences.</p>
+        
+        <div class="about-highlights">
+          <div class="highlight-item">
+            <span class="highlight-icon">📚</span>
+            <div class="highlight-text">
+              <h3>Continuous Learning</h3>
+              <p>Always exploring new minerals and geological formations</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">🔬</span>
+            <div class="highlight-text">
+              <h3>Research</h3>
+              <p>Conducting detailed analysis of mineral properties</p>
+            </div>
+          </div>
+          <div class="highlight-item">
+            <span class="highlight-icon">🌟</span>
+            <div class="highlight-text">
+              <h3>Community</h3>
+              <p>Sharing knowledge with fellow gem enthusiasts</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Timeline Section -->
+<section class="timeline-section">
+  <div class="container">
+    <h2 class="section-title">My Journey</h2>
+    <p class="section-subtitle">Key milestones in my gem collecting adventure</p>
+    
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-marker">2024</div>
+        <div class="timeline-content">
+          <h3>Club President</h3>
+          <p>Leading the Gem Club and organizing monthly gem shows. Initiated new research programs and expanded our collection database.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker">2023</div>
+        <div class="timeline-content">
+          <h3>Event Coordinator</h3>
+          <p>Organized the Annual Gem & Mineral Exhibition with over 200 visitors. Won the "Best Educational Display" award.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker">2022</div>
+        <div class="timeline-content">
+          <h3>Research Lead</h3>
+          <p>Conducted research on local mineral formations. Published findings in the Gem Club Journal.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-marker">2021</div>
+        <div class="timeline-content">
+          <h3>New Member</h3>
+          <p>Joined the Gem Club and discovered my passion for minerals. Started my personal collection.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills & Expertise -->
+<section class="expertise-section">
+  <div class="container">
+    <h2 class="section-title">Skills & Expertise</h2>
+    <p class="section-subtitle">What I've learned along the way</p>
+    
+    <div class="expertise-grid">
+      <div class="expertise-card">
+        <div class="expertise-icon">💎</div>
+        <h3>Gemstone Identification</h3>
+        <p>Ability to identify and classify various gemstones using visual and physical properties.</p>
+        <div class="skill-level">Advanced</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">🔬</div>
+        <h3>Mineralogy</h3>
+        <p>Understanding of mineral composition, crystal structures, and geological formation processes.</p>
+        <div class="skill-level">Advanced</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">📸</div>
+        <h3>Photography</h3>
+        <p>Documentation of gems and minerals through detailed photography and cataloging.</p>
+        <div class="skill-level">Proficient</div>
+      </div>
+      <div class="expertise-card">
+        <div class="expertise-icon">✍️</div>
+        <h3>Research & Writing</h3>
+        <p>Writing detailed reports and maintaining comprehensive collection records.</p>
+        <div class="skill-level">Advanced</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <h2>Want to Learn More?</h2>
+      <p>Feel free to explore my portfolio or get in touch to discuss gems and minerals.</p>
+      <div class="cta-buttons">
+<a href="home.html" class="btn btn-primary">View Portfolio</a>
+        <a href="contact.html" class="btn btn-secondary">Get In Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CSS Styles -->
+<style>
+:root {
+  --primary-purple: #8B5CF6;
+  --primary-violet: #7C3AED;
+  --emerald: #10B981;
+  --light-bg: #F5F3FF;
+  --text-dark: #1F2937;
+  --text-light: #6B7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.6;
+  color: var(--text-dark);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+/* Hero Section */
+.about-hero {
+  position: relative;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1E1B4B 0%, #4C1D95 50%, #1E1B4B 100%);
+  overflow: hidden;
+  padding: 2rem;
+}
+
+.about-hero .hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: 
+    radial-gradient(circle at 20% 80%, rgba(139, 92, 246, 0.3) 0%, transparent 50%),
+    radial-gradient(circle at 80% 20%, rgba(16, 185, 129, 0.2) 0%, transparent 50%);
+  animation: overlayPulse 8s ease-in-out infinite;
+}
+
+@keyframes overlayPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+
+.about-hero .hero-content {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  max-width: 800px;
+}
+
+.about-hero .hero-badge {
+  display: inline-block;
+  background: rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(139, 92, 246, 0.5);
+  color: #C4B5FD;
+  padding: 0.5rem 1.5rem;
+  border-radius: 50px;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.about-hero h1 {
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-bottom: 1rem;
+}
+
+.about-hero .hero-tagline {
+  font-size: clamp(1rem, 3vw, 1.5rem);
+  color: #C4B5FD;
+}
+
+/* About Content Section */
+.about-content-section {
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
+
+.about-image-block {
+  display: flex;
+  justify-content: center;
+}
+
+.image-frame-large {
+  position: relative;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-frame-large .frame-gem {
+  position: absolute;
+  font-size: 5rem;
+  top: -30px;
+  right: -15px;
+  animation: rotate 10s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.profile-placeholder {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(135deg, #E0E7FF, #C7D2FE);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 6rem;
+  box-shadow: 0 20px 40px rgba(139, 92, 246, 0.2);
+}
+
+.about-info h2 {
+  font-size: 2.25rem;
+  color: var(--text-dark);
+  margin-bottom: 1.5rem;
+}
+
+.about-info .lead {
+  font-size: 1.25rem;
+  color: var(--primary-purple);
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.about-info p {
+  color: var(--text-light);
+  margin-bottom: 1.5rem;
+  font-size: 1.0625rem;
+  line-height: 1.8;
+}
+
+.about-highlights {
+  margin-top: 2rem;
+}
+
+.highlight-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.highlight-icon {
+  font-size: 1.5rem;
+}
+
+.highlight-text h3 {
+  font-size: 1.125rem;
+  color: var(--text-dark);
+  margin-bottom: 0.25rem;
+}
+
+.highlight-text p {
+  font-size: 0.9375rem;
+  color: var(--text-light);
+  margin-bottom: 0;
+}
+
+/* Timeline Section */
+.timeline-section {
+  padding: 6rem 2rem;
+  background: var(--light-bg);
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+}
+
+.timeline {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 2rem;
+  padding-bottom: 2rem;
+  border-left: 3px solid var(--primary-purple);
+  padding-left: 2rem;
+  margin-left: 1rem;
+}
+
+.timeline-marker {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: var(--primary-purple);
+  min-width: 60px;
+}
+
+.timeline-content h3 {
+  font-size: 1.25rem;
+  color: var(--text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+  color: var(--text-light);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+}
+
+/* Expertise Section */
+.expertise-section {
+  padding: 6rem 2rem;
+  background: white;
+}
+
+.expertise-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.expertise-card {
+  background: linear-gradient(135deg, #F5F3FF, #EDE9FE);
+  padding: 2rem;
+  border-radius: 16px;
+  text-align: center;
+  border: 1px solid rgba(139, 92, 246, 0.1);
+  transition: all 0.3s ease;
+}
+
+.expertise-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(139, 92, 246, 0.2);
+}
+
+.expertise-icon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.expertise-card h3 {
+  font-size: 1.25rem;
+  color: var(--text-dark);
+  margin-bottom: 0.75rem;
+}
+
+.expertise-card p {
+  color: var(--text-light);
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.expertise-card .skill-level {
+  display: inline-block;
+  background: var(--primary-purple);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* CTA Section */
+.cta-section {
+  padding: 6rem 2rem;
+  background: var(--light-bg);
+}
+
+.cta-content {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.cta-content h2 {
+  font-size: 2.25rem;
+  color: var(--text-dark);
+  margin-bottom: 1rem;
+}
+
+.cta-content p {
+  color: var(--text-light);
+  font-size: 1.125rem;
+  margin-bottom: 2rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.875rem 2rem;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-purple), var(--primary-violet));
+  color: white;
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.4);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.6);
+}
+
+.btn-secondary {
+  background: transparent;
+  color: var(--primary-purple);
+  border: 2px solid var(--primary-purple);
+}
+
+.btn-secondary:hover {
+  background: var(--primary-purple);
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-hero,
+  .about-content-section,
+  .timeline-section,
+  .expertise-section,
+  .cta-section {
+    padding: 4rem 1.5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+  }
+}
+</style>
+
+<?php get_footer(); ?>
